@@ -3,215 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INTJ-37 | AI产品经理作品集</title>
+    <title>INTJ-37 的个人作品集</title>
     <style>
-        :root {
-            --primary: #6366f1;
-            --primary-hover: #4f46e5;
-            --bg: #0f172a;
-            --card-bg: #1e293b;
-            --text-main: #f8fafc;
-            --text-sub: #94a3b8;
-            --accent: #38bdf8;
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background-color: var(--bg);
-            color: var(--text-main);
-            line-height: 1.6;
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
             padding: 40px 20px;
+            color: #333;
+            line-height: 1.6;
         }
-
-        .container { max-width: 900px; margin: 0 auto; }
-
-        /* 顶部 Header */
-        header {
-            text-align: center;
-            padding: 40px 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-            margin-bottom: 40px;
-        }
-        .avatar {
-            width: 80px; height: 80px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, var(--primary), var(--accent));
-            display: flex; align-items: center; justify-content: center;
-            font-size: 32px; font-weight: bold; margin: 0 auto 20px;
-            box-shadow: 0 0 20px rgba(99, 102, 241, 0.4);
-        }
-        h1 { font-size: 2.2rem; margin-bottom: 10px; }
-        .tagline { color: var(--accent); font-size: 1.1rem; font-weight: 500; }
-        .bio { color: var(--text-sub); max-width: 600px; margin: 15px auto 0; font-size: 0.95rem; }
-
-        /* 核心标签 */
-        .highlights {
-            display: flex; justify-content: center; gap: 15px;
-            flex-wrap: wrap; margin-top: 20px;
-        }
-        .tag {
-            background: rgba(99, 102, 241, 0.15);
-            color: #a5b4fc;
-            padding: 6px 16px; border-radius: 20px;
-            font-size: 0.85rem; border: 1px solid rgba(99, 102, 241, 0.3);
-        }
-
-        /* 板块标题 */
-        section { margin-bottom: 50px; }
-        h2 {
-            font-size: 1.4rem; color: var(--text-main);
-            margin-bottom: 20px; display: flex; align-items: center; gap: 10px;
-        }
-        h2::before {
-            content: ""; display: inline-block;
-            width: 4px; height: 18px; background: var(--primary);
-            border-radius: 2px;
-        }
-
-        /* 动态卡片设计 */
-        .card {
-            background: var(--card-bg);
-            border-radius: 12px;
-            padding: 24px;
+        h1 { color: #2b2b2b; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        .intro { font-size: 1.1em; color: #666; margin-bottom: 30px; }
+        .portfolio-item {
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
             margin-bottom: 20px;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         }
-        .card:hover {
-            transform: translateY(-4px);
-            border-color: rgba(99, 102, 241, 0.4);
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
-        }
-        .card-header {
-            display: flex; justify-content: space-between; align-items: baseline;
-            margin-bottom: 12px; flex-wrap: wrap; gap: 8px;
-        }
-        .card-title { font-size: 1.15rem; font-weight: 600; color: #fff; }
-        .card-meta { font-size: 0.85rem; color: var(--text-sub); }
-        .role-badge {
-            background: rgba(56, 189, 248, 0.1); color: var(--accent);
-            padding: 2px 8px; border-radius: 4px; font-size: 0.8rem;
-        }
-
-        ul { list-style-type: none; }
-        li {
-            position: relative; padding-left: 20px;
-            color: var(--text-sub); margin-bottom: 8px; font-size: 0.95rem;
-        }
-        li::before {
-            content: "▹"; position: absolute; left: 0; color: var(--primary);
-        }
-
-        /* 技能网格 */
-        .skills-grid {
-            display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
-        }
-        .skill-item {
-            background: var(--card-bg); padding: 16px; border-radius: 8px;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-        }
-        .skill-item h4 { color: var(--accent); margin-bottom: 8px; font-size: 0.95rem; }
-        .skill-item p { color: var(--text-sub); font-size: 0.85rem; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <!-- 头部个人简介 -->
-        <header>
-            <div class="avatar">AI</div>
-            <h1>INTJ-37</h1>
-            <div class="tagline">主攻方向：AI产品经理 / AI应用落地与设计</div>
-            <p class="bio">艺术设计学硕士背景（懂UI交互/设计心理），具备2段AI实习与项目0-1落地经验。擅长需求洞察、PRD撰写、Prompt工作流搭建与跨职能团队推进。</p>
-            <div class="highlights">
-                <span class="tag">0到1可视化产品搭建</span>
-                <span class="tag">付费闭环验证</span>
-                <span class="tag">To C & To B 产品经验</span>
-            </div>
-        </header>
-
-        <!-- 主打核心项目 -->
-        <section>
-            <h2>重点项目 / Projects</h2>
-            <div class="card">
-                <div class="card-header">
-                    <span class="card-title">AI 文游产品 (0-1 独立搭建与验证)</span>
-                    <span class="role-badge">负责人 / AI产品与内容</span>
-                </div>
-                <div class="card-meta">2026.02 - 2026.04</div>
-                <ul>
-                    <li><strong>需求洞察与产品上线：</strong> 从 AI 文游社区及 Prompt 售卖评论中精准识别“AI文游可视化”需求，将纯文本互动叙事升级为网页沉浸式体验。联合程序员与运营完成 0-1 搭建。</li>
-                    <li><strong>核心链路设计：</strong> 负责设计“角色创建—世界观/剧本—剧情推进—可视化—付费”核心闭环链路，完成原型绘制，搭建角色世界观及剧情推进提示词模板，生成视觉素材并推动网页版上线。</li>
-                    <li><strong>商业结果验证：</strong> 跨职能协作上线，成功获取约 10 名付费用户，初步验证用户付费意愿。</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- 实习经历 -->
-        <section>
-            <h2>实习经历 / Experience</h2>
-            <div class="card">
-                <div class="card-header">
-                    <span class="card-title">广州紫为星辰科技有限公司</span>
-                    <span class="role-badge">AI 产品经理</span>
-                </div>
-                <div class="card-meta">2025.11 - 2026.04</div>
-                <ul>
-                    <li><strong>新功能开发跟进：</strong> 与技术人员对齐需求边界，使用 Figma/AI 绘图工具完成平台新增板块原型图、PRD、流程图及交互说明；跟进开发/测试/上线环节，推动需求准确落地。</li>
-                    <li><strong>产品体验与测试迭代：</strong> 深度体验产品功能并提出优化建议；跟进测试并输出测试报告。参与 2025 年粤港澳大湾区人工智能与机器人产业大会学生比赛赛前测试，现场验证考试网页、难度及 BUG。</li>
-                    <li><strong>AI 产业链图谱研究：</strong> 参与广东省人工智能产业链图谱项目，负责下游应用层研究（涵盖智能产品与服务、赋能新型工业化、行业应用三大板块及代表公司）。</li>
-                    <li><strong>AI 内容视觉化模板与 Prompt 工作流：</strong> 优化平台文章视觉化展示模板，拆解文章结构，针对不同场景设计差异化提示词模板与排版逻辑，形成可复用的文章结构分类与模板适配逻辑。</li>
-                </ul>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="card-title">广州趣丸网络科技有限公司</span>
-                    <span class="role-badge">AI 内容策划</span>
-                </div>
-                <div class="card-meta">2025.07 - 2025.09</div>
-                <ul>
-                    <li><strong>AI 陪伴类线上 APP 内容策划：</strong> 通过搜集热门设定、分析用户偏好主题，梳理用户对 AI 生成世界观、角色互动的核心诉求，形成需求反馈报告。</li>
-                    <li><strong>AI 工作流搭建与优化：</strong> 深入了解工作流搭建逻辑，优化提示词。测试练图模型性能，通过调整关键词组合进行多轮生成测试，排查图片生成问题并反馈技术团队，协助解决工作流代码报错。</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- 核心技能 -->
-        <section>
-            <h2>核心技能 / Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-item">
-                    <h4>📋 产品经理核心能力</h4>
-                    <p>需求调研、竞品拆解、行业研究、PRD/流程图撰写、Figma/Axure 原型绘制、上线跟进与开发测试。</p>
-                </div>
-                <div class="skill-item">
-                    <h4>🤖 AI 与效率工具</h4>
-                    <p>Prompt Engineering、提示词模板化工作流、Coze 智能体/工作流、基础 RPA、Claude Coding。</p>
-                </div>
-                <div class="skill-item">
-                    <h4>🎨 设计与数据基础</h4>
-                    <p>Figma、Axure、PS / AI / PR / Midjourney、SQL、Excel。</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- 教育背景 -->
-        <section>
-            <h2>教育背景 / Education</h2>
-            <div class="card">
-                <div class="card-header">
-                    <span class="card-title">天津美术学院 | 硕士 (艺术设计学)</span>
-                    <span class="card-meta">2023 - 2027</span>
-                </div>
-                <p style="color: var(--text-sub); font-size: 0.9rem;">主修：产品设计、设计心理、设计传播</p>
-                <div class="card-header" style="margin-top: 10px;">
-                    <span class="card-title">天津美术学院 | 本科 (艺术设计学)</span>
-                    <span class="card-meta">2019 - 2023</span>
-                </div>
-            </div>
-        </section>
+    <h1>欢迎来到我的个人作品集</h1>
+    <p class="intro">你好！我是 INTJ-37，这里是我的个人主页。</p>
+    
+    <div class="portfolio-item">
+        <h2>我的第一个作品</h2>
+        <p>这是我的作品描述。后续我们可以把这里替换成你的文章、图片、项目介绍或者链接！</p>
     </div>
 </body>
 </html>
