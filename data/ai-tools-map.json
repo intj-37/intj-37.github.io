@@ -1,0 +1,246 @@
+{
+  "title": "AI工具",
+  "rootId": "z2:7",
+  "nodes": [
+    {
+      "id": "z2:7",
+      "parentId": "",
+      "label": "AI工具",
+      "order": 0
+    },
+    {
+      "id": "z2:8",
+      "parentId": "z2:7",
+      "label": "AI 对话",
+      "order": 0
+    },
+    {
+      "id": "z2:9",
+      "parentId": "z2:7",
+      "label": "AI图像生成",
+      "order": 1
+    },
+    {
+      "id": "z2:10",
+      "parentId": "z2:7",
+      "label": "情感陪伴类",
+      "order": 3
+    },
+    {
+      "id": "z1:11",
+      "parentId": "z2:7",
+      "label": "AI视频音频",
+      "order": 2
+    },
+    {
+      "id": "z1:12",
+      "parentId": "z2:8",
+      "label": "Gemini",
+      "order": 0
+    },
+    {
+      "id": "z1:13",
+      "parentId": "z2:8",
+      "label": "Claude",
+      "order": 1
+    },
+    {
+      "id": "z1:14",
+      "parentId": "z2:8",
+      "label": "deepseek",
+      "order": 2
+    },
+    {
+      "id": "z1:15",
+      "parentId": "z2:8",
+      "label": "KIMI",
+      "order": 3
+    },
+    {
+      "id": "z1:16",
+      "parentId": "z2:8",
+      "label": "千问",
+      "order": 4
+    },
+    {
+      "id": "z1:17",
+      "parentId": "z2:8",
+      "label": "GPT",
+      "order": 5
+    },
+    {
+      "id": "z1:18",
+      "parentId": "z2:8",
+      "label": "豆包",
+      "order": 6
+    },
+    {
+      "id": "z1:19",
+      "parentId": "z2:8",
+      "label": "poe",
+      "order": 7
+    },
+    {
+      "id": "z1:20",
+      "parentId": "z2:8",
+      "label": "文心一言",
+      "order": 8
+    },
+    {
+      "id": "z1:21",
+      "parentId": "z2:8",
+      "label": "智谱",
+      "order": 9
+    },
+    {
+      "id": "z1:22",
+      "parentId": "z2:9",
+      "label": "MJ",
+      "order": 0
+    },
+    {
+      "id": "z1:23",
+      "parentId": "z2:9",
+      "label": "SD",
+      "order": 1
+    },
+    {
+      "id": "z1:24",
+      "parentId": "z2:9",
+      "label": "LIBLIB",
+      "order": 2
+    },
+    {
+      "id": "z1:25",
+      "parentId": "z2:9",
+      "label": "豆包",
+      "order": 3
+    },
+    {
+      "id": "z1:26",
+      "parentId": "z2:9",
+      "label": "即梦",
+      "order": 4
+    },
+    {
+      "id": "z1:27",
+      "parentId": "z1:11",
+      "label": "ELEVENLABS",
+      "order": 0
+    },
+    {
+      "id": "z1:28",
+      "parentId": "z1:11",
+      "label": "唱鸭",
+      "order": 1
+    },
+    {
+      "id": "z1:29",
+      "parentId": "z1:11",
+      "label": "魔音工坊",
+      "order": 2
+    },
+    {
+      "id": "z1:30",
+      "parentId": "z1:11",
+      "label": "Runway",
+      "order": 3
+    },
+    {
+      "id": "z1:31",
+      "parentId": "z1:11",
+      "label": "幻影",
+      "order": 4
+    },
+    {
+      "id": "z1:33",
+      "parentId": "z2:10",
+      "label": "酒馆AI",
+      "order": 0
+    },
+    {
+      "id": "z1:34",
+      "parentId": "z2:10",
+      "label": "Replica",
+      "order": 1
+    },
+    {
+      "id": "z1:35",
+      "parentId": "z2:10",
+      "label": "星野",
+      "order": 2
+    },
+    {
+      "id": "z1:36",
+      "parentId": "z2:10",
+      "label": "筑梦岛",
+      "order": 3
+    },
+    {
+      "id": "z1:37",
+      "parentId": "z2:10",
+      "label": "林间疗愈室",
+      "order": 4
+    },
+    {
+      "id": "z1:38",
+      "parentId": "z2:7",
+      "label": "工作流搭建",
+      "order": 4
+    },
+    {
+      "id": "z1:39",
+      "parentId": "z1:38",
+      "label": "DIFY",
+      "order": 0
+    },
+    {
+      "id": "z1:40",
+      "parentId": "z1:38",
+      "label": "扣子",
+      "order": 1
+    },
+    {
+      "id": "z1:41",
+      "parentId": "z2:7",
+      "label": "效率工具",
+      "order": 5
+    },
+    {
+      "id": "z1:42",
+      "parentId": "z1:41",
+      "label": "来福-LAIFU",
+      "order": 0
+    },
+    {
+      "id": "z1:43",
+      "parentId": "z1:41",
+      "label": "讯飞听见",
+      "order": 1
+    },
+    {
+      "id": "z1:44",
+      "parentId": "z1:41",
+      "label": "闪念贝壳",
+      "order": 2
+    },
+    {
+      "id": "z1:45",
+      "parentId": "z2:9",
+      "label": "z.ai",
+      "order": 5
+    },
+    {
+      "id": "z1:46",
+      "parentId": "z2:9",
+      "label": "Nano-Banana",
+      "order": 6
+    },
+    {
+      "id": "z1:47",
+      "parentId": "z2:8",
+      "label": "元宝",
+      "order": 10
+    }
+  ]
+}
